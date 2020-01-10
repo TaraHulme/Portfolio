@@ -1,23 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Hello, I'm Tara, Fullstack Web Developer</title>
+    <title>Tara, Fullstack Web Developer</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Links -->
     <link href="main.css" type="text/css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ultra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav role="navigation">This is the nav bar</nav>
+    <nav  class="nav" role="navigation">
+        <div class="hamburger">&#9776;</div>
+            <ul class="menu">
+                <li>Bio</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
+    </nav>
     <main role="main">
         <header role="banner">
-            <h1>Hero Image here!</h1>
+            <h1>Hello, I'm Tara</h1>
+            <div>
+                <img src="H_and_M.jpg" alt="my son and me">
+            </div>
         </header>
-
+<!-- ask mentor about having words on top of this button, not below -->
+         <div class="whitespace" id="top">
+             <button class="scrolldown">
+                scroll down plz
+             </button>
+         </div>
+<!-- I will probably need a new font, this is tough to read -->
         <section class="bio">
-            Bio Section
+            <strong>Bio</strong></br>
+                I am jumping in to the world of coding starting with the Full Stack Engineering Web Development Program at Thinkful. 
+                I've been a teacher, counselor, coach, and caregiver, always using my natural problem solving abilites to juggle multiple priorites while keeping focused on the mission of the organization. 
+                I love to learn, try new things, and watch ideas come together in harmony; it's even cooler when it's a great website. 
+                I've got an eye for design and a curiosity about how things work.
+        </br>
+                When I'm not coding, find me stomping through the woods of Rhode Island with my toddler, 
+                tending to my plants, knitting or fixing holes in my clothes, and trying to zen out during some yoga with my husband.
+                (just kidding, my life is soley focused on what my child wants to eat next hahaha)
+              
         </section>
 
+         <div class="whitespace" id="center"></div>
+<!-- use "picture" element for showing screenshots on screensizes -->
         <section class="project1">
             Project 1
         </section>
@@ -30,6 +62,18 @@
             Project 3
         </section>
     </main>
-    <footer role="contentinfo">Footer Foot Foot</footer>
+
+       <div class="whitespace" id="bottom"></div>
+    <!-- add your icons below. probably do img. or look up what the i method is -->
+    <footer role="contentinfo">Walk this Way
+        <ul class="social">
+            <li class="social_icon">
+                <link> <img src= "https://img.icons8.com/android/24/000000/linkedin.png"></link></li>
+            <li class="social_icon">
+                <link> <img src="GitHub.png"></link></li>
+            <li class="social_icon">
+                <link> <img src="https://img.icons8.com/material-rounded/24/000000/important-mail.png"></link></li>
+        </ul>
+    </footer>
 </body>
 </html>
