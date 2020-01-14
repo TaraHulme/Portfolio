@@ -8,34 +8,38 @@
     <!-- Links -->
     <link href="main.css" type="text/css" rel="stylesheet">
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ultra&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav  class="nav" role="navigation">
+    <nav class="nav" role="navigation">
+        <iframe class="clock" src="http://free.timeanddate.com/clock/i740qsbf/n43/szw80/szh80/hoc009/hbw0/hfc8ed2e4/cf100/hnc56a7a7/hwc000/hcw2/fan2/fas16/fac555/fdi60/mqcf0f/mqs4/mql2/mqw4/mqd78/mhcf90/mhs4/mhl3/mhw4/mhd78/mmv0/hhc990/hhs2/hmc990/hms2/hscf09" 
+        frameborder="0" width="80" height="80"></iframe>
+
         <div class="hamburger">&#9776;</div>
             <ul class="menu">
-                <li>Bio</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li class="menu_item">Bio</li>
+                <li class="menu_item">Projects</li>
+                <li class="menu_item">Contact</li>
             </ul>
     </nav>
     <main role="main">
         <header role="banner">
             <h1>Hello, I'm Tara</h1>
-            <div>
-                <img src="H_and_M.jpg" alt="my son and me">
+            <div class="my_image">
+                <img class="one" src="img/H_and_M.jpg" alt="my son and me">
             </div>
         </header>
 <!-- ask mentor about having words on top of this button, not below -->
          <div class="whitespace" id="top">
-             <button class="scrolldown">
+             <!-- <button class="scrolldown">
                 scroll down plz
-             </button>
+             </button> -->
+             <button style="padding:15px">Right Arrow: <i class="right"></i></i></button>
          </div>
-<!-- I will probably need a new font, this is tough to read -->
-        <section class="bio">
+        <section class="bio" id="bio">
             <strong>Bio</strong></br>
                 I am jumping in to the world of coding starting with the Full Stack Engineering Web Development Program at Thinkful. 
                 I've been a teacher, counselor, coach, and caregiver, always using my natural problem solving abilites to juggle multiple priorites while keeping focused on the mission of the organization. 
@@ -50,30 +54,56 @@
 
          <div class="whitespace" id="center"></div>
 <!-- use "picture" element for showing screenshots on screensizes -->
-        <section class="project1">
-            Project 1
+        <section class="project1" id="projects">
+            <strong>Project title:</strong> Eastern Forest Quiz App
+            <br>
+            <strong>Project description:</strong> a quiz that tallies your score as you go along and gives you a total at the end. Test your knowledge of the forest!
+            <br>
+            Technologies used: HTML, CSS, JavaScript, JQuery
+            <br>
+            <a href="https://tarahulme.github.io/Forest-Quiz-App/">Live App</a>
+            <a href="https://github.com/TaraHulme/Forest-Quiz-App">GitHub Repo</a>
         </section>
 
         <section class="project2">
-            Project 2
+            <strong>Project title:</strong> A COOL APP ABOUT SOMETHING
+            <br>
+            <strong>Project description:</strong> It does things!
+            <br>
+            Technologies used: HTML, CSS, JavaScript, JQuery
+            <br>
+            <a href="http://toothpastefordinner.com">Live App</a>
+            <a href="http://toothpastefordinner.com">GitHub Repo</a>
         </section>
 
         <section class="project3">
-            Project 3
+            <strong>Project title:</strong> A SWANKY THING ABOUT STUFF
+            <br>
+            <strong>Project description:</strong> it does this and that and everything you need
+            <br>
+            Technologies used: HTML, CSS, JavaScript, JQuery
+            <br>
+            <a href="http://toothpastefordinner.com">Live App</a>
+            <a href="http://toothpastefordinner.com">GitHub Repo</a>
         </section>
     </main>
 
        <div class="whitespace" id="bottom"></div>
-    <!-- add your icons below. probably do img. or look up what the i method is -->
-    <footer role="contentinfo">Walk this Way
+    <!-- make these links go to the specific location indicated -->
+    <footer role="contentinfo">CONTACT MEEEE
         <ul class="social">
             <li class="social_icon">
-                <link> <img src= "https://img.icons8.com/android/24/000000/linkedin.png"></link></li>
+                <a href="http://www.linkedin.com/in/tara-hulme"> <img src= "https://img.icons8.com/android/24/000000/linkedin.png"></a>
+            </li>
             <li class="social_icon">
-                <link> <img src="GitHub.png"></link></li>
+                <a href="https://github.com/TaraHulme"> <img src="img/GitHub.png"></a>
+            </li>
             <li class="social_icon">
-                <link> <img src="https://img.icons8.com/material-rounded/24/000000/important-mail.png"></link></li>
+                <a href="mailto:tgosser137@gmail.com"><img src="https://img.icons8.com/material-rounded/24/000000/important-mail.png"></a>
+            </li>
         </ul>
+        <!-- copywrite thingy -->
+        <container class="copyright">copyright 2020 Tara Hulme</container>
     </footer>
 </body>
 </html>
