@@ -13,9 +13,10 @@ body {
 nav {
     position: fixed;
     background: #8ed2e4;
-    padding: .5%;
+    padding: 3px;
     width: 100%;
     text-align: end;
+    font-size: 25px;
 }
 
 .clock {
@@ -37,7 +38,7 @@ nav {
 nav, footer {
     /* font-family: 'Lato', sans-serif; */
     font-family: 'Luckiest Guy', cursive;
-    font-size: 30px;
+    
 }
 
 header {
@@ -57,6 +58,7 @@ header h2 {
     font-family: 'Ultra', serif;
     text-align: left;
     font-size: 60px;
+    margin-left: 8px;
 }
 .my_image {
     text-align: center ;
@@ -129,6 +131,7 @@ footer {
     /* display: flex;
     flex-direction: row;
     justify-content: space-evenly; */
+    font-size: 40px;
     text-align: center;
     background:#56a7a7;
     color:#133517;
