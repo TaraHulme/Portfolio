@@ -1,0 +1,27 @@
+NAV BAR
+Bio Projects Contact - send to each section
+shrink to show just hamburger or .hide() after scrolling past .whitespace #top
+
+PROJECT SECTION
+grid?
+have sections move into a row in large screen view
+
+convert links for repo and live site into buttons
+https://www.w3schools.com/css/tryit.asp?filename=trycss_link_advanced
+
+
+
+
+
+
+
+
+
+
+
+
+
+FUN ADD ONS?
+Todays date
+local weather
+

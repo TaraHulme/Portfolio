@@ -11,3 +11,8 @@ $('li').hover(function() {
     $(this).css('background', '#cdf8e3');
 });
 
+$('.hamburger').on('click', function(){
+    // $('.menu').toggle();
+    alert('you are a hamburger');
+});
+

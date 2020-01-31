@@ -19,10 +19,6 @@ nav {
     font-size: 25px;
 }
 
-.clock {
-    display: flex;
-    justify-content: flex-start;
-}
 
 .menu {
     display: none;
@@ -147,10 +143,6 @@ footer {
     padding-right: 20px;
 }
 
-.clock {
-    text-align: center;
-}
-
 container {
     background-color: blueviolet;
 }
@@ -178,8 +170,6 @@ container {
     display:flex;
     justify-content: space-around;
     /* align-items: flex-end; */
-    
-
 }
 .footer {
     width: 100%;
